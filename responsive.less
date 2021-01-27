@@ -1,0 +1,176 @@
+/*MEDIA QUERY*/
+
+@media (max-width: 375px){
+
+	header{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 20px 0 30px 0;
+		padding: 0;
+		
+			img{
+                width: 80px;
+                margin-left: 10px;
+			}
+
+			nav{
+				margin-right: 20px;
+			}
+
+			nav a{
+				margin: 5px;
+			}
+    }
+
+
+	body{
+        max-width: 375px;
+        margin: 0 auto;
+        
+        .sec1{
+            display: flex;
+            flex-direction: column-reverse;
+    
+                img{
+                    width: 90%;
+                    display: block;
+                    margin: 0 auto;
+                }		
+                
+                h1{
+                    width: 90%;
+                    padding: 0px;
+                    margin: 0 auto;
+                    text-align: center;
+                    font-size: 25px;
+            }
+        }
+
+        .textos{
+            width: 85%;
+            margin: 0 auto;
+            font-size: 15px;
+        }
+
+    }
+
+    .container{
+        margin: 0px;
+        width: 100%;
+    }
+    
+    .sec1 .art1{
+        width: 100%;
+        margin-right: 0px;
+
+        .textos{
+            width: 85%;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        a{
+            width: 300px;
+            margin: 10px 0 0 36px;
+        }
+
+        input{
+            margin: 15px 0 0 36px;
+        }
+    }
+
+    .montain img{
+        content: url("img/bg-curve-mobile.svg");
+    }
+
+    .sec2{
+        display: flex;
+        flex-direction: column-reverse;
+
+       .img img{
+            width: 300px;
+            margin-bottom: 20px;
+        }
+
+        h1{
+            width: 100%;
+            text-align: center; 
+            font-size: 16px;
+        }
+
+        .textos a{
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .testimony{
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 40px;
+            font-size: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+                h2{
+                    font-size: 16px;
+                    margin-top: 8px;
+                }
+        }
+
+
+    }
+
+
+    .sec3{
+        flex-direction: column;
+        padding: 0;
+        height: 370px;
+
+        article{
+            width: 90%;
+            margin: 50px auto 10px auto;
+
+                h2{
+                    width: 100%;
+                    text-align: center; 
+                    font-size: 18px;
+                }
+        }
+
+        .started{
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 40px;
+
+            a{
+                width: 250px;
+                margin: 10px 0 0 40px;
+            }
+    
+            input{
+                width: 250px;
+                margin: 15px 0 0 40px;
+            }
+        }
+
+    }
+
+    .foot-container{
+        height: 700px;
+        flex-direction: column;
+
+            .footer-links{
+                flex-direction: column;
+                margin-bottom: 30px;
+
+                    a{
+                        margin: 10px 0;
+                        margin-left: 50px;
+                        text-align: justify;
+                    }
+            }
+    }
+	
+}
